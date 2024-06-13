@@ -1,9 +1,11 @@
 FROM nvcr.io/nvidia/
 
 LABEL maintainer="miras_zakaryanov"
-ENV TZ=Asia/Almaty \
-    USER=miras_zakaryanov \
-    UID=1010
+
+ARG TZ
+ARG USER
+ARG UID
+# when running docker run add arg --env-file .env
 
 RUN groupadd -g ${UID} ${USER} && useradd -l -r -m -s /bin/bash -u ${UID} ${USER} -g ${USER}
 

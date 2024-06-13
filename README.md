@@ -47,11 +47,11 @@ project1/
 ```
 
 ```python
-python src/download_model.py
+    python src/download_model.py
 ```
 
 ```python
-python src/inference.py
+    python src/inference.py
 ```
 
 ## 🤝 Contributions
