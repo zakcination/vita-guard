@@ -8,6 +8,7 @@ Welcome to _____, one-stop solution for efficient action recognition and keypoin
 - 🧠**Comprehensive Inference**: Robust inference scripts to handle video data seamlessly.
 
 ## 📂Project Structure
+```
 project1/
 ├── README.md                  # Project description and usage instructions
 ├── requirements.txt           # Dependencies list for Python packages
@@ -37,7 +38,7 @@ project1/
 │   └── ...                    # Other subdirectories for different types of intermediary results
 └── notebooks/                 # Jupyter notebooks for exploratory work
     └── ViTPose_demo.ipynb     # Original notebook file
-
+```
 
 ## 🚀Quick Start
 
